@@ -1,0 +1,31 @@
+{
+  "name": "hankit/germany-income-tax-calculator",
+  "type": "library",
+  "description": "This library calculates income taxes for the german tax system.",
+  "license": "MIT",
+  "version": "1.0",
+  "authors": [
+    {
+      "name": "Alexander Hank",
+      "email": "mail@hank-it.com"
+    }
+  ],
+  "require": {
+    "php": ">=8.0"
+  },
+  "require-dev": {
+    "mockery/mockery": "^1.6",
+    "phpunit/phpunit": "^10",
+    "fakerphp/faker": "^1.24"
+  },
+  "autoload": {
+    "psr-4": {
+      "HankIT\\GermanyIncomeTaxCalculator\\": "src"
+    }
+  },
+  "autoload-dev": {
+    "psr-4": {
+      "Tests\\": "tests/"
+    }
+  }
+}
